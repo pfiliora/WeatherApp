@@ -1,4 +1,4 @@
-# Simple Yahoo! Weather App Implementation
+# Simple Weather App Implementation
 
-As part of lecture 43 / (or 44...) we implemented a Yahoo! Weather map clone. 
+Building a weather app while learning to use webpack method. 
 
