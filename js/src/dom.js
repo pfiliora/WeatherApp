@@ -12,7 +12,7 @@ export const renderWeather = (weatherData) => {
     const container = document.querySelector('.js-weathercard');
     container.innerHTML = "";
     container.innerHTML = `<div class="card-image waves-effect waves-block waves-light">
-          <img class="activator" src="./assets/${weatherData.weather["0"].description}.jpeg">
+          <img class="activator" src="./assets/${weatherData.weather["0"].icon}.jpeg">
           <span class="card-title activator"> ${weatherData.name}</span>
         </div>
         <div class="card-content">
